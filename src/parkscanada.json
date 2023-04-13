@@ -1,0 +1,2647 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-114.0917281, 51.0381918]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "11",
+          "parking_zone": "4368",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4368",
+          "zone_cap": null,
+          "address_desc": "12 St SW ,  Fr 16 Av SW To 17 Av SW",
+          "max_time": "120.0",
+          "brz_name": "Uptown 17"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0891059, 51.038213]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "11",
+          "parking_zone": "4403",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4403",
+          "zone_cap": null,
+          "address_desc": "11 St SW ,  Fr 16 Av SW To 17 Av SW",
+          "max_time": "120.0",
+          "brz_name": "Uptown 17"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.086666, 51.0381813]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "11",
+          "parking_zone": "4417",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4417",
+          "zone_cap": null,
+          "address_desc": "10 St SW ,  Fr 16 Av SW To 17 Av SW",
+          "max_time": "30.0",
+          "brz_name": "Uptown 17"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0793669, 51.0384912]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "11",
+          "parking_zone": "4333",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4333",
+          "zone_cap": null,
+          "address_desc": "7 St SW ,  Fr 15 Av SW To 16 Av SW",
+          "max_time": "120.0",
+          "brz_name": "Uptown 17"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0792617, 51.0383082]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "11",
+          "parking_zone": "4452",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4452",
+          "zone_cap": null,
+          "address_desc": "7 St SW ,  Fr 15 Av SW To 17 Av SW",
+          "max_time": "120.0",
+          "brz_name": "Uptown 17"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0810687, 51.0437712]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "9",
+          "parking_zone": "3064",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30",
+          "permit_zone": "3064",
+          "zone_cap": null,
+          "address_desc": "10 Av SW ,  Fr 7 St SW To 8 St SW",
+          "max_time": "20.0",
+          "brz_name": "Beltline"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0619469, 51.0624852]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Access Calgary Loading Zone",
+          "no_stopping": null,
+          "price_zone": "22",
+          "parking_zone": "4990",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4990",
+          "zone_cap": null,
+          "address_desc": "11 Av NE ,  Fr 1 St NE To Centre St N",
+          "max_time": "10.0",
+          "brz_name": "Crescent Heights Village"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0928511, 51.0431596]
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "8",
+          "parking_zone": "3266",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "15:30 -18:00",
+          "permit_zone": "3266",
+          "zone_cap": null,
+          "address_desc": "11 Av SW ,  Fr 12 St SW To 13 St SW",
+          "max_time": "180.0",
+          "brz_name": null
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0895572, 51.0430663]
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "8",
+          "parking_zone": "3280",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "15:30 -18:00",
+          "permit_zone": "3280",
+          "zone_cap": null,
+          "address_desc": "11 Av SW ,  Fr 11 St SW To 12 St SW",
+          "max_time": "120.0",
+          "brz_name": null
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0876214, 51.0430114]
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "8",
+          "parking_zone": "3295",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "15:30 -18:00",
+          "permit_zone": "3295",
+          "zone_cap": null,
+          "address_desc": "11 Av SW ,  Fr 10 St SW To 11 St SW",
+          "max_time": "120.0",
+          "brz_name": null
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0902811, 51.0431884]
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "8",
+          "parking_zone": "3015",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "15:30 -18:00",
+          "permit_zone": "3015",
+          "zone_cap": null,
+          "address_desc": "11 Av SW ,  Fr 11 St Sw To 12 St SW",
+          "max_time": "180.0",
+          "brz_name": null
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0722764, 51.0406739]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "13",
+          "parking_zone": "3903",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3903",
+          "zone_cap": null,
+          "address_desc": "13 Av SW ,  Fr 4 St SW To 5 St SW",
+          "max_time": "180.0",
+          "brz_name": "4 Street SW"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.072057, 51.0406677]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Handicapped Zone",
+          "no_stopping": null,
+          "price_zone": "13",
+          "parking_zone": "3904",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3904",
+          "zone_cap": null,
+          "address_desc": "13 Av SW ,  Fr 4 St SW To 5 St SW",
+          "max_time": "180.0",
+          "brz_name": "4 Street SW"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0723289, 51.0397263]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "13",
+          "parking_zone": "4151",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4151",
+          "zone_cap": null,
+          "address_desc": "14 Av SW ,  Fr 4 St SW To 5 St SW",
+          "max_time": "180.0",
+          "brz_name": "4 Street SW"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0913354, 51.0439935]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "8",
+          "parking_zone": "2998",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2998",
+          "zone_cap": null,
+          "address_desc": "12 St SW ,  Fr 10 Av SW To 11 Av SW",
+          "max_time": "540.0",
+          "brz_name": null
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0911861, 51.0437111]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "8",
+          "parking_zone": "3020",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3020",
+          "zone_cap": null,
+          "address_desc": "12 St SW ,  Fr 10 Av SW To 11 Av SW",
+          "max_time": "540.0",
+          "brz_name": null
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0731695, 51.0524804]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "5",
+          "parking_zone": "1062",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1062",
+          "zone_cap": null,
+          "address_desc": "Eau Claire Av SW ,  Fr 4 St SW To 5 St SW",
+          "max_time": "180.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0655588, 51.0396284]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "3950",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3950",
+          "zone_cap": null,
+          "address_desc": "14 Av SW ,  Fr Centre St S To 1 St SW",
+          "max_time": "180.0",
+          "brz_name": "First Street"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0656341, 51.0395559]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "4193",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4193",
+          "zone_cap": null,
+          "address_desc": "14 Av SW ,  Fr Centre St S To 1 St SW",
+          "max_time": "180.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0651064, 51.0395403]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "4193",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4193",
+          "zone_cap": null,
+          "address_desc": "14 Av SW ,  Fr Centre St S To 1 St SW",
+          "max_time": "180.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.061444, 51.039511]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "3961",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3961",
+          "zone_cap": null,
+          "address_desc": "14 Av SE ,  Fr 1 St SE To Centre St S",
+          "max_time": "180.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0616689, 51.0394257]
+           
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "4207",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4207",
+          "zone_cap": null,
+          "address_desc": "14 Av SE ,  Fr 1 St SE To Centre St S",
+          "max_time": "180.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0860226, 51.0552962]
+           
+        },
+        "properties": {
+          "enforceable_time": "0910-1550 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "18",
+          "parking_zone": "2748",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "06:30 - 08:30 , 16:00 - 18:00",
+          "permit_zone": "2748",
+          "zone_cap": null,
+          "address_desc": "10 St NW ,  Fr 2 Av St NW To 3 Av NW",
+          "max_time": "20.0",
+          "brz_name": "Kensington / Louise Crossing"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0559158, 51.0429906]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Handicapped Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "3185",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3185",
+          "zone_cap": null,
+          "address_desc": "3 St SE ,  Fr 10 Av SE To 11 Av SE",
+          "max_time": "120.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0599647, 51.0432845]
+         
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "2943",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2943",
+          "zone_cap": null,
+          "address_desc": "10 Av SE ,  Fr 1 St SE To MacLeod Tr SE",
+          "max_time": "120.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0561474, 51.0430648]
+           
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "3182",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3182",
+          "zone_cap": null,
+          "address_desc": "10 Av SE ,  Fr MacLeod Tr SE To 3 St SE",
+          "max_time": "20.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0556184, 51.0430486]
+           
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "15",
+          "parking_zone": "3192",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3192",
+          "zone_cap": null,
+          "address_desc": "10 Av SE ,  Fr Olympic Wy SE To 3 St SE",
+          "max_time": "120.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0665253, 51.0414609]
+         
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM",
+          "seg_cap": null,
+          "zone_type": "Taxi Zone",
+          "no_stopping": null,
+          "price_zone": "12",
+          "parking_zone": "3671",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30",
+          "permit_zone": "3671",
+          "zone_cap": null,
+          "address_desc": "12 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "20.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0646698, 51.0415044]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "3428",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3428",
+          "zone_cap": null,
+          "address_desc": "12 Av SW ,  Fr 1 St SW To Centre St S",
+          "max_time": "20.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0657453, 51.0407194]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "3693",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3693",
+          "zone_cap": null,
+          "address_desc": "1 St SW ,  Fr 12 Av SW To 13 Av SW",
+          "max_time": "120.0",
+          "brz_name": "First Street"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0612901, 51.0433205]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "2940",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2941",
+          "zone_cap": null,
+          "address_desc": "10 Av SE ,  Fr Centre St S To 1 St SE",
+          "max_time": "120.0",
+          "brz_name": null
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0748002, 51.04501]
+          
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4d",
+          "parking_zone": "2441",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2441",
+          "zone_cap": null,
+          "address_desc": "9 Av SW ,  Fr 5 St SW To 6 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0766499, 51.0450602]
+           
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4d",
+          "parking_zone": "2427",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2427",
+          "zone_cap": null,
+          "address_desc": "9 Av SW ,  Fr 6 St SW To 7 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0797683, 51.0498869]
+           
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "6",
+          "parking_zone": "1298",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1298",
+          "zone_cap": null,
+          "address_desc": "4 Av SW ,  Fr 7 St SW To 8 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0716194, 51.0484782]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4b",
+          "parking_zone": "1737",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1737",
+          "zone_cap": null,
+          "address_desc": "4 St SW ,  Fr 5 Av SW To 6 Av SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0702613, 51.0482117]
+            
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1751",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1751",
+          "zone_cap": null,
+          "address_desc": "3 St SW ,  Fr 5 Av SW To 6 Av SW",
+          "max_time": "60.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0761503, 51.0495588]
+           
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4b",
+          "parking_zone": "1505",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1505",
+          "zone_cap": null,
+          "address_desc": "6 St SW ,  Fr 4 Av SW To 5 Av SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0781442, 51.04875]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4b",
+          "parking_zone": "1706",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1706",
+          "zone_cap": null,
+          "address_desc": "5 Av SW ,  Fr 6 St SW To 7 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0681736, 51.0408355]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Access Calgary Loading Zone",
+          "no_stopping": null,
+          "price_zone": "12",
+          "parking_zone": "3681",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3681",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 12 Av SW To 13 Av SW",
+          "max_time": "10.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0634487, 51.0409028]
+           
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "3686",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3686",
+          "zone_cap": null,
+          "address_desc": "Centre St S ,  Fr 12 Av SW To 13 Av SW",
+          "max_time": "180.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0710446, 51.0457301]
+           
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2462",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2462",
+          "zone_cap": null,
+          "address_desc": "8 Av SW ,  Fr 3 St SW To 4 St SW",
+          "max_time": "30.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0762905, 51.047599]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4b",
+          "parking_zone": "1950",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1950",
+          "zone_cap": null,
+          "address_desc": "6 St SW ,  Fr 6 Av SW To 7 Av SW",
+          "max_time": "60.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0774893, 51.0477926]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4b",
+          "parking_zone": "1946",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1946",
+          "zone_cap": null,
+          "address_desc": "6 Av SW ,  Fr 6 St SW To 7 St SW",
+          "max_time": "60.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0658718, 51.0388243]
+         
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "14",
+          "parking_zone": "4204",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4204",
+          "zone_cap": null,
+          "address_desc": "1 St SW ,  Fr 14 Av SW To 15 Av SW",
+          "max_time": "20.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0711577, 51.0387572]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "13",
+          "parking_zone": "4484",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4484",
+          "zone_cap": null,
+          "address_desc": "15 Av SW ,  Fr 2 St SW To 4 St SW",
+          "max_time": "180.0",
+          "brz_name": "4 Street SW"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0661538, 51.0387037]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "13",
+          "parking_zone": "4186",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "4186",
+          "zone_cap": null,
+          "address_desc": "15 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "120.0",
+          "brz_name": "Victoria Park"
+        }
+      },
+
+        
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+          
+              [-114.0676819, 51.0446272]
+         
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2645",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2645",
+          "zone_cap": null,
+          "address_desc": "9 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0630699, 51.0493979]
+          
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1398",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1398",
+          "zone_cap": null,
+          "address_desc": "4 Av SW ,  Fr Centre St S To 1 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0668233, 51.0495196]
+           
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1382",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1382",
+          "zone_cap": null,
+          "address_desc": "4 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0677741, 51.0467971]
+          
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Access Calgary Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "2027",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "2027",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 6 Av SW To 7 Av SW",
+          "max_time": "10.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.067805, 51.0491612]
+                 },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1562",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1562",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 4 Av SW To 5 Av SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0558379, 51.0473075]
+           
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Access Calgary Loading Zone",
+          "no_stopping": null,
+          "price_zone": "2",
+          "parking_zone": "1839",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1839",
+          "zone_cap": null,
+          "address_desc": "6 Av SE ,  Fr 2 St SE To 3 St SE",
+          "max_time": "10.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0671141, 51.0447831]
+          
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2497",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2497",
+          "zone_cap": null,
+          "address_desc": "9 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0629276, 51.0456927]
+          
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2293",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2293",
+          "zone_cap": null,
+          "address_desc": "Centre St S ,  Fr 7 Av SE To 8 Av SE",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0618539, 51.0444588]
+          
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2654",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2654",
+          "zone_cap": null,
+          "address_desc": "9 Av SE ,  Fr 1 St SE To Centre St S",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0680563, 51.0454167]
+         
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2481",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2481",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 8 Av SW To 9 Av SW",
+          "max_time": "30.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0656538, 51.0475841]
+          
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1783",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1783",
+          "zone_cap": null,
+          "address_desc": "6 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.065951, 51.0493515]
+         
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1573",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1573",
+          "zone_cap": null,
+          "address_desc": "4 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0646221, 51.0494551]
+           
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1396",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1396",
+          "zone_cap": null,
+          "address_desc": "4 Av SW ,  Fr Centre St S To 1 St SW",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0679986, 51.0461274]
+          
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2244",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2244",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 7 Av SW To 8 Av SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0678498, 51.0482673]
+          
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1765",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1765",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 5 Av SW To 6 Av SW",
+          "max_time": "60.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0629456, 51.0448698]
+           
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2530",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2530",
+          "zone_cap": null,
+          "address_desc": "Centre St S ,  Fr 8 Av SE To 9 Av SE",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0661691, 51.0475979]
+          
+          
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1782",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1782",
+          "zone_cap": null,
+          "address_desc": "6 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "30.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0609158, 51.0484299]
+           
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Taxi Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1607",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1607",
+          "zone_cap": null,
+          "address_desc": "5 Av SE ,  Fr Centre St S To 1 St SE",
+          "max_time": "1440.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0617495, 51.0493778]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "3",
+          "parking_zone": "1410",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1410",
+          "zone_cap": null,
+          "address_desc": "4 Av SE ,  Fr 1 St SE To Centre St S",
+          "max_time": "120.0",
+          "brz_name": "Chinatown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0675756, 51.0492268]
+           
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Taxi Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1582",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1582",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 4 Av SW To 5 Av SW",
+          "max_time": "1440.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0670185, 51.049382]
+          
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1573",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1573",
+          "zone_cap": null,
+          "address_desc": "4 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0680801, 51.0450799]
+         
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Access Calgary Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2482",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2482",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 8 Av SW To 9 Av SW",
+          "max_time": "10.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0665962, 51.0474772]
+           
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "2016",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "2016",
+          "zone_cap": null,
+          "address_desc": "6 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "60.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0603014, 51.0444649]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "2",
+          "parking_zone": "2657",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2657",
+          "zone_cap": null,
+          "address_desc": "9 Av SE ,  Fr MacLeod Tr SE To 1 St SE",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0581134, 51.0478657]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "2",
+          "parking_zone": "1821",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1821",
+          "zone_cap": null,
+          "address_desc": "MacLeod Tr SE ,  Fr 5 Av SE To 6 Av SE",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0651313, 51.0445855]
+            
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2649",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2649",
+          "zone_cap": null,
+          "address_desc": "9 Av SW ,  Fr Centre St S To 1 St SW",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0677942, 51.0493112]
+           
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1561",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1561",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 4 Av SW To 5 Av SW",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0678433, 51.0483562]
+            
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1766",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1766",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 5 Av SW To 6 Av SW",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0613497, 51.0474648]
+          
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1520 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1810",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1810",
+          "zone_cap": null,
+          "address_desc": "6 Av SE ,  Fr Centre St S To 1 St SE",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0591032, 51.0472583]
+         
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "2",
+          "parking_zone": "2058",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "2058",
+          "zone_cap": null,
+          "address_desc": "6 Av SE ,  Fr MacLeod Tr SE To 1 St SE",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0662949, 51.0474686]
+          
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "2016",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "2016",
+          "zone_cap": null,
+          "address_desc": "6 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "60.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0649581, 51.0493002]
+         
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1585",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1585",
+          "zone_cap": null,
+          "address_desc": "4 Av SW ,  Fr Centre St S To 1 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0678173, 51.04899]
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1562",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1562",
+          "zone_cap": null,
+          "address_desc": "2 St SW ,  Fr 4 Av SW To 5 Av SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0631618, 51.0449137]
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2510",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2510",
+          "zone_cap": null,
+          "address_desc": "Centre St S ,  Fr 8 Av SW To 9 Av SW",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0613876, 51.0482679]
+        },
+        "properties": {
+          "enforceable_time": "0840-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1803",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1803",
+          "zone_cap": null,
+          "address_desc": "5 Av SE ,  Fr Centre St S To 1 St SE",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0611911, 51.0492103]
+          
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1600",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1600",
+          "zone_cap": null,
+          "address_desc": "4 Av SE ,  Fr Centre St S To 1 St SE",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0629174, 51.0452617]
+         
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Taxi Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2529",
+          "stall_type": "Parallel",
+          "block_side": "E",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2529",
+          "zone_cap": null,
+          "address_desc": "Centre St S ,  Fr 8 Av SE To 9 Av SE",
+          "max_time": "1440.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0630224, 51.0467732]
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "2036",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2036",
+          "zone_cap": null,
+          "address_desc": "Centre St S ,  Fr 6 Av SE To 7 Av SE",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.06301, 51.0469042]
+        },
+        "properties": {
+          "enforceable_time": "0001-2359 MON-SUN",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "2035",
+          "stall_type": "Parallel",
+          "block_side": "W",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2035",
+          "zone_cap": null,
+          "address_desc": "Centre St S ,  Fr 6 Av SE To 7 Av SE",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0611552, 51.0446484]
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2525",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2525",
+          "zone_cap": null,
+          "address_desc": "9 Av SE ,  Fr 1 St SE To Centre St S",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0876726, 51.0482071]
+           
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "7",
+          "parking_zone": "1659",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1659",
+          "zone_cap": null,
+          "address_desc": "6 Av SW ,  Fr 10 St SW To 11 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0671217, 51.0513043]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "5",
+          "parking_zone": "1228",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1228",
+          "zone_cap": null,
+          "address_desc": "2 Av SW ,  Fr 1 St SW To 2 St SW",
+          "max_time": "120.0",
+          "brz_name": "Chinatown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0803053, 51.0459795]
+           
+        },
+        "properties": {
+          "enforceable_time": "0710-1750 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "4d",
+          "parking_zone": "2407",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2407",
+          "zone_cap": null,
+          "address_desc": "8 Av SW ,  Fr 7 St SW To 8 St SW",
+          "max_time": "120.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0854651, 51.0555419]
+          
+        },
+        "properties": {
+          "enforceable_time": "0001-2359 MON-SUN",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Registered Loading Zone",
+          "no_stopping": null,
+          "price_zone": "18",
+          "parking_zone": "2756",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2756",
+          "zone_cap": null,
+          "address_desc": "3 Av NW ,  Fr 9A St NW To 10 St NW",
+          "max_time": "20.0",
+          "brz_name": "Kensington / Louise Crossing"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.0614557, 51.0515305]
+          
+        },
+        "properties": {
+          "enforceable_time": "0001-2359 MON-SUN",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Registered Loading Zone",
+          "no_stopping": null,
+          "price_zone": "3",
+          "parking_zone": "1118",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "1118",
+          "zone_cap": null,
+          "address_desc": "Riverfront Av SE , Fr 1 St SE To Centre St S",
+          "max_time": "20.0",
+          "brz_name": "Chinatown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.088847, 51.0523644]
+           
+        },
+        "properties": {
+          "enforceable_time": "0001-2359 MON-SUN",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Registered Loading Zone",
+          "no_stopping": null,
+          "price_zone": "17",
+          "parking_zone": "2859",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2859",
+          "zone_cap": null,
+          "address_desc": "Kensington Cr NW ,  Fr 11 St NW To 11A St NW",
+          "max_time": "20.0",
+          "brz_name": "Kensington / Louise Crossing"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates":
+              [-114.072172, 51.0427084]
+          
+        },
+        "properties": {
+          "enforceable_time": "0910-1520 MON-FRI, 0910-1750 SAT",
+          "no_parking": null,
+          "parking_restrict_type": "PM",
+          "seg_cap": null,
+          "zone_type": "Loading Zone",
+          "no_stopping": null,
+          "price_zone": "12",
+          "parking_zone": "3115",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "15:30 -18:00",
+          "permit_zone": "3115",
+          "zone_cap": null,
+          "address_desc": "11 Av SW ,  Fr 4 St Sw To 5 St SW",
+          "max_time": "20.0",
+          "brz_name": "Beltline"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+          
+              [-114.0641711, 51.0445581]
+          
+        },
+        "properties": {
+          "enforceable_time": "0001-2359 MON-SUN",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Registered Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4c",
+          "parking_zone": "2650",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "2650",
+          "zone_cap": null,
+          "address_desc": "9 Av SW ,  Fr Centre St S To 1 St SW",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": 
+              [-114.0687184, 51.049431]
+          
+        },
+        "properties": {
+          "enforceable_time": "0001-2359 MON-SUN",
+          "no_parking": null,
+          "parking_restrict_type": "AM&PM",
+          "seg_cap": null,
+          "zone_type": "Registered Loading Zone",
+          "no_stopping": null,
+          "price_zone": "4a",
+          "parking_zone": "1559",
+          "stall_type": "Parallel",
+          "block_side": "S",
+          "status": "Active",
+          "parking_restrict_time": "07:00 - 08:30 , 15:30 - 18:00",
+          "permit_zone": "1559",
+          "zone_cap": null,
+          "address_desc": "4 Av SW ,  Fr 2 St Sw To 3 St SW",
+          "max_time": "20.0",
+          "brz_name": "Downtown"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [-114.0717641, 51.0397904]
+        },
+        "properties": {
+          "enforceable_time": "0910-1750 MON-SAT",
+          "no_parking": null,
+          "parking_restrict_type": "none",
+          "seg_cap": null,
+          "zone_type": "Parking Zone",
+          "no_stopping": null,
+          "price_zone": "13",
+          "parking_zone": "3908",
+          "stall_type": "Parallel",
+          "block_side": "N",
+          "status": "Active",
+          "parking_restrict_time": "none",
+          "permit_zone": "3908",
+          "zone_cap": null,
+          "address_desc": "14 Av SW ,  Fr 4 St SW To 5 St SW",
+          "max_time": "180.0",
+          "brz_name": "4 Street SW"
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    }
+  }
+  

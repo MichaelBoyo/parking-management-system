@@ -1,0 +1,24 @@
+@import "../../sass/values";
+@import url("../../assets/fonts/fontsheet.css");
+.navbar {
+  background-color: rgb(59,178,208);
+  height: 7%;
+  width: 100%;
+
+  &__icon{
+    width: 20%;
+    margin-left: 13%;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+   
+    height: 7px;
+  }
+  &__ico{
+    width: 25%;
+    margin-left: 12%;
+    font-weight: bold;
+    color: white;
+    font-size:xx-large
+  }
+}
