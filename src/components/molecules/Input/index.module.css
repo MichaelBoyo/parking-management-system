@@ -4,7 +4,6 @@
   --border-top-right-radius: 5px;
   --border-bottom-left-radius: 5px;
   --border-bottom-right-radius: 5px;
-  margin: 2%;
 }
 .Input__input {
   border: 2px solid rgba(84, 95, 125, 0.1490196078);
@@ -15,7 +14,6 @@
   border-bottom-left-radius: var(--border-bottom-left-radius);
   border-bottom-right-radius: var(--border-bottom-right-radius);
   outline: none;
-  font-weight: bold;
   color: #000;
 }
 .Input__icon {
@@ -49,6 +47,13 @@
 .Input__label {
   color: rgb(24, 88, 104);
   font-weight: bold;
+  position: relative;
+  top: 12px;
+  left: 12px;
+  background-color: white;
+  display: inline-block;
+  width: fit-content;
+  padding: 0 8px 0 8px;
 }
 
 /*# sourceMappingURL=index.module.css.map */

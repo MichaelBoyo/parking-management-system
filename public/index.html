@@ -7,6 +7,10 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
       href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css"
       rel="stylesheet"
     />
@@ -70,14 +74,18 @@
 
       .listings {
         height: 100%;
+        width: 35%;
         overflow: auto;
         padding-bottom: 60px;
         overflow-y: scroll;
       }
+      .checked {
+        color: rgb(180, 160, 50);
+
+      }
       .listings::-webkit-scrollbar {
         width: 7px;
         background-color: lightgrey;
-  
       }
 
       .listings::-webkit-scrollbar-thumb {
@@ -103,6 +111,25 @@
 
       .listings .item .title small {
         font-weight: 400;
+      }
+      .listings button {
+        background-color: rgb(59, 178, 208);
+        border: solid 1px;
+        border-radius: 3px;
+        padding: 0 2% 0 2%;
+        border-color: rgb(59, 178, 208);
+        font-weight: bold;
+        margin-right: 8%;
+      }
+      .listings span {
+        /* background-color: rgb(138, 138, 203);
+        border: solid 1px;
+        border-radius: 3px;
+        padding: 0 2% 0 2%;
+        border-color: rgb(138, 138, 203);
+      
+        margin-right: 8%;
+        color: white; */
       }
 
       .listings .item.active .title,
@@ -133,7 +160,7 @@
   gets 2/3 of the page. You can adjust this to your personal liking. */
       .sidebar {
         height: 100%;
-
+        width: 100%;
         overflow: hidden;
         border-right: 1px solid rgba(0, 0, 0, 0.25);
       }

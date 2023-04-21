@@ -1,25 +1,29 @@
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
-import Register from './components/Register';
-import NavBar from './components/NavBar';
+import Login from "./components/Login";
+import Dashboard from "./components/Dashboard";
+import Register from "./components/Register";
+import NavBar from "./components/NavBar";
 
 export const routes = [
   {
-    path: '/',
+    path: "/",
     element: <Login />,
   },
   {
-    path: '/login',
+    path: "/login",
     element: <Login />,
   },
   {
-    path: '/register',
+    path: "/register",
     element: <Register />,
   },
   {
-    path: '/dashboard',
+    path: "/dashboard",
     element: (
-      <div>
+      <div
+        style={{
+          overflow: "hidden",
+        }}
+      >
         <NavBar />
         <Dashboard />
       </div>

@@ -9,10 +9,12 @@ const PassWordInput = ({
   type,
   error,
   errorMessage,
+  label,
 }) => {
   const inputEl = useRef(null);
   return (
     <div className={style.PassWordInput} data-testid="password-input-container">
+      {!!label && <div className={style.PasswordInput__label}>{label}</div>}
       <div className={style.PassWordInput__container}>
         <input
           ref={inputEl}

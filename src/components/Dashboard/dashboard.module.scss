@@ -41,15 +41,33 @@
   }
 }
 
+.closestParkTab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  &__button {
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: rgb(59, 178, 208);
+    margin-top: 7%;
+    padding: 2%;
+    height: 50%;
+    font-size: large;
+    font-weight: bold;
+    border-color: rgb(59, 178, 208);
+  }
+}
+
 .closestPark {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   border: solid 1px;
   border-radius: 10px;
+  cursor: pointer;
   margin: 3%;
+  padding: 2%;
   border-color: rgb(138, 138, 203);
-
   background-color: rgb(138, 138, 203);
 
   &__a {
@@ -67,4 +85,9 @@
     font-weight: bold;
     margin: auto;
   }
+  &__favId {
+    display: none;
+  }
 }
+
+

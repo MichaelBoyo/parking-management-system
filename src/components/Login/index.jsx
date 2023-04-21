@@ -8,14 +8,15 @@ import useInput from '../../utils/hooks/useInput';
 import isPassword from '../../utils/functions/isPassword';
 import isEmail from '../../utils/functions/isEmail';
 import { Input, PassWordInput } from '..';
-
+import { login } from "../../api"
 function Login() {
   const [email, setEmail, clearEmail] = useInput('');
   const [password, setPassword, clearPassword] = useInput('');
   const [emailError, setEmailError] = useState(false);
   const [passWordError, setPassWordError] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("Please enter a valid email")
   const navigate = useNavigate();
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!isEmail(String(email)) || !isPassword(String(password))) {
       if (!isEmail(String(email))) {
@@ -32,11 +33,31 @@ function Login() {
       }
       return;
     }
-    navigate('/dashboard');
+    const res = await login({
+      username: email, password
+    })
+    if (res.status === 200) {
+      navigate('/dashboard', {
+        state: {
+          access: res.data.token.access,
+          userId: res.data.userid
+        }
+      });
+    }
+    else {
+      console.log(res)
+      setErrorMsg(res?.message)
+      setEmailError(true);
+      setTimeout(() => {
+        setEmailError(false);
+      }, 3000);
+    }
+
+
   };
 
   const nav = () => {
-    navigate('/dashboard');
+    navigate('/register');
   };
   return (
     <section className={style.LogIn}>
@@ -60,7 +81,7 @@ function Login() {
               placeholder: 'Email',
               type: 'text',
               error: emailError,
-              errorMessage: 'Please enter a valid email',
+              errorMessage: errorMsg,
             }}
           />
           <PassWordInput
