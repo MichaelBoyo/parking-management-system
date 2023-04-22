@@ -1,7 +1,12 @@
 import React, { useEffect, useContext } from "react";
 import style from "./index.module.scss";
 import { RxAvatar } from "react-icons/rx";
-import { getBalance, depositApi } from "../../api";
+import {
+  getBalance,
+  depositApi,
+  getData,
+  getIdFromLocalStorage,
+} from "../../api";
 import { UserContext } from "../../stroe";
 import { useNavigate } from "react-router-dom";
 
@@ -11,9 +16,15 @@ const NavBar = () => {
 
   const [show, setShow] = React.useState(false);
   const [amount, setAmount] = React.useState(100);
+  const [userData, setUserData] = React.useState({});
+  const [showProfile, setShowProfile] = React.useState(false);
   const fetchData = async () => {
     const res = await getBalance();
+
     data.setBalance(res.data.balance);
+
+    const res2 = await getData(getIdFromLocalStorage());
+    setUserData(() => res2.data);
   };
 
   useEffect(() => {
@@ -79,8 +90,21 @@ const NavBar = () => {
         )}
       </div>
       <p className={style.navbar__balance}>${data.balance}</p>
+      <div className={style.navbar__profile}>
+        <RxAvatar
+          className={style.navbar__profile__avatar}
+          onMouseOver={() => setShowProfile(true)}
+          onMouseLeave={() => setShowProfile(false)}
+        />
 
-      <RxAvatar className={style.navbar__avatar} />
+        {showProfile && (
+          <div className={style.navbar__profile__dropdown}>
+            <p>{userData?.email}</p>
+            <p>{userData?.first_name}</p>
+            <p>{userData?.last_name}</p>
+          </div>
+        )}
+      </div>
 
       <button onClick={logout} className={style.navbar__logout}>
         LogOut

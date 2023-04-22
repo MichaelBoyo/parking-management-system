@@ -22,6 +22,7 @@ function Dashboard() {
       alert("parking lot booked")
       const balres = await getBalance();
       data.setBalance(balres.data.balance);
+      data.getRatingsData()
     }
   }
   return (

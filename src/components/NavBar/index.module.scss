@@ -5,11 +5,43 @@
 
   display: flex;
 
-  &__avatar {
-    font-size: xx-large;
-    color: white;
+  &__profile {
+    position: relative;
     margin-right: 2%;
-    margin-top: 10px;
+
+    &__avatar {
+      font-size: xx-large;
+      color: white;
+      margin-top: 10px;
+    }
+
+    &__dropdown {
+      // border: solid 1px red;
+      position: absolute;
+      bottom: -5rem;
+      left: -6rem;
+      z-index: 3;
+      background-color: white;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 3px 3px 7px #00000094;
+    }
+  }
+
+  &__logout {
+    margin: 8px 0 8px 0;
+    padding: 5px;
+    margin-right: 20px;
+    color: white;
+    background-color: rgb(138, 138, 203);
+    border: solid 1px;
+    border-radius: 4px;
+
+    border-color: rgb(138, 138, 203);
+
+    text-align: center;
+    font-weight: bold;
+    background-color: tomato;
   }
 
   &__balance {
@@ -57,12 +89,12 @@
     }
 
     &__form {
-     margin-right: 10px;
+      margin-right: 10px;
       &__input {
-          margin: 2% 0 2% 0;
-          border: solid 1px;
-          border-radius: 4px;
-          border-color: rgb(138, 138, 203);
+        margin: 2% 0 2% 0;
+        border: solid 1px;
+        border-radius: 4px;
+        border-color: rgb(138, 138, 203);
       }
 
       &__buttonDiv {

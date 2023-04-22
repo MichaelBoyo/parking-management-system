@@ -22,6 +22,11 @@ customFetch.interceptors.request.use(
   }
 );
 
+export const getIdFromLocalStorage = () => {
+  const user = JSON.parse(localStorage.getItem("user"));
+  return user.id;
+};
+
 export const register = async (data) => {
   try {
     const response = await axios.post(baseURL + "register/", data);
@@ -70,7 +75,9 @@ export const login = async (data) => {
     const response = await axios.post(baseURL + "login/", data);
     localStorage.setItem("refresh", response.data.token.refresh);
     sessionStorage.setItem("token", response.data.token.access);
+
     const user = await getData(response.data.userid);
+
     localStorage.setItem("user", JSON.stringify(user.data));
     return response;
   } catch (error) {
@@ -80,7 +87,7 @@ export const login = async (data) => {
 
 export const getData = async (id) => {
   try {
-    const response = await customFetch.get(`user/${id}`);
+    const response = await customFetch.get(`user/${Number(id)}`);
     return response;
   } catch (error) {
     return error;
@@ -115,24 +122,6 @@ export const registerLots = async (data) => {
     const response = await customFetch.post(`parkinglots/`, data);
     return response;
   } catch (error) {
-    console.error("error", error);
-    return error;
-  }
-};
-
-export const getIdFromLocalStorage = () => {
-  const user = JSON.parse(localStorage.getItem("user"));
-  return user.id;
-};
-export const bookParkingLot = async (parkinglot) => {
-  try {
-    const response = await customFetch.post(`booklots/`, {
-      parkinglot,
-      user: Number(getIdFromLocalStorage()),
-    });
-    return response;
-  } catch (error) {
-    console.error("error", error);
     return error;
   }
 };
@@ -166,6 +155,41 @@ export const getNumberOfStars = async (id) => {
     const response = await customFetch.get(
       `rate/${Number(getIdFromLocalStorage(id))}-${Number(id)}`
     );
+    return response;
+  } catch (error) {
+    console.error("error", error);
+    return error;
+  }
+};
+
+export const getParkingLot = async (id) => {
+  try {
+    const response = await customFetch.get(`parkinglots/${Number(id)}`);
+    return response;
+  } catch (error) {
+    console.error("error", error);
+    return error;
+  }
+};
+
+export const bookParkingLot = async (parkinglot) => {
+  const lot = await getParkingLot(parkinglot);
+  console.log(lot);
+  try {
+    const response = await customFetch.post(`booklots/`, {
+      parkinglot,
+      user: Number(getIdFromLocalStorage()),
+      amount: lot.data.price,
+    });
+    return response;
+  } catch (error) {
+    return error;
+  }
+};
+
+export const getAccount = async () => {
+  try {
+    const response = await customFetch.get(`booklots`);
     return response;
   } catch (error) {
     console.error("error", error);
