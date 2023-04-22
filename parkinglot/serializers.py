@@ -12,7 +12,7 @@ class ParkingLotSerializer(serializers.ModelSerializer):
 class BookLotSerializer(serializers.ModelSerializer):
     class Meta:
         model = BookLot
-        fields = ('date_booked', 'parkinglot', 'user')
+        fields = ('date_booked', 'parkinglot', 'user', 'amount')
 
 
 class AccountSerializer(serializers.ModelSerializer):

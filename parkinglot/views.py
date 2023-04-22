@@ -1,7 +1,7 @@
 from rest_framework import viewsets, permissions, status
 from rest_framework.response import Response
 
-from parkinglot.models import ParkingLot, Account, Rating
+from parkinglot.models import ParkingLot, Account, Rating, BookLot
 from parkinglot.serializers import ParkingLotSerializer, BookLotSerializer, AccountSerializer, RatingSerializer
 
 
@@ -12,7 +12,7 @@ class ParkingLotViewSet(viewsets.ModelViewSet):
 
 
 class BookLotViewSet(viewsets.ModelViewSet):
-    queryset = ParkingLot.objects.all()
+    queryset = BookLot.objects.all()
     serializer_class = BookLotSerializer
     permission_classes = [permissions.IsAuthenticated]
 

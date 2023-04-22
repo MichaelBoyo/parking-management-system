@@ -22,6 +22,7 @@ class BookLot(models.Model):
     date_booked = models.DateTimeField(auto_now_add=True)
     parkinglot = models.ForeignKey(ParkingLot, on_delete=models.CASCADE, related_name='booked_lot')
     user = models.ForeignKey(User, related_name='booked_by', on_delete=models.CASCADE)
+    amount = models.IntegerField()
 
 
 class Rating(models.Model):
