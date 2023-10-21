@@ -1,20 +1,19 @@
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import style from "./index.module.scss";
+import { loginPageImage } from "../../assets";
 
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import style from './index.module.scss';
-import { loginPageImage } from '../../assets';
+import useInput from "../../utils/hooks/useInput";
+import isPassword from "../../utils/functions/isPassword";
+import isEmail from "../../utils/functions/isEmail";
+import { Input, PassWordInput } from "..";
 
-import useInput from '../../utils/hooks/useInput';
-import isPassword from '../../utils/functions/isPassword';
-import isEmail from '../../utils/functions/isEmail';
-import { Input, PassWordInput } from '..';
-import { login } from "../../api"
 function Login() {
-  const [email, setEmail, clearEmail] = useInput('');
-  const [password, setPassword, clearPassword] = useInput('');
+  const [email, setEmail, clearEmail] = useInput("");
+  const [password, setPassword, clearPassword] = useInput("");
   const [emailError, setEmailError] = useState(false);
   const [passWordError, setPassWordError] = useState(false);
-  const [errorMsg, setErrorMsg] = useState("Please enter a valid email")
+  const [errorMsg, setErrorMsg] = useState("Please enter a valid email");
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -33,31 +32,10 @@ function Login() {
       }
       return;
     }
-    const res = await login({
-      username: email, password
-    })
-    if (res.status === 200) {
-      navigate('/dashboard', {
-        state: {
-          access: res.data.token.access,
-          userId: res.data.userid
-        }
-      });
-    }
-    else {
-      console.log(res)
-      setErrorMsg(res?.message)
-      setEmailError(true);
-      setTimeout(() => {
-        setEmailError(false);
-      }, 3000);
-    }
-
-
   };
 
   const nav = () => {
-    navigate('/register');
+    navigate("/register");
   };
   return (
     <section className={style.LogIn}>
@@ -78,8 +56,8 @@ function Login() {
               value: String(email),
               setValue: setEmail,
               clearValue: clearEmail,
-              placeholder: 'Email',
-              type: 'text',
+              placeholder: "Email",
+              type: "text",
               error: emailError,
               errorMessage: errorMsg,
             }}
@@ -89,11 +67,11 @@ function Login() {
               value: String(password),
               setValue: setPassword,
               clearValue: clearPassword,
-              placeholder: 'Password',
-              type: 'password',
+              placeholder: "Password",
+              type: "password",
               error: passWordError,
               errorMessage:
-                'Please enter a password with an Uppercase, Lowercase, Number and a special character',
+                "Please enter a password with an Uppercase, Lowercase, Number and a special character",
             }}
           />
           <span

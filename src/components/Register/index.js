@@ -7,7 +7,7 @@ import useInput from "../../utils/hooks/useInput";
 import isPassword from "../../utils/functions/isPassword";
 import isEmail from "../../utils/functions/isEmail";
 import { Input, PassWordInput } from "..";
-import { register } from "../../api";
+
 function Login() {
   const [email, setEmail, clearEmail] = useInput("");
   const [fullname, setFullName, clearFullName] = useInput("");
@@ -55,27 +55,6 @@ function Login() {
         setPassWordError2(false);
       }, 3000);
       return;
-    }
-    const res = await register({
-      email,
-      password,
-      password2: password,
-      first_name: fullname.split(" ")[0],
-      last_name: fullname.split(" ")[1],
-    });
-
-    if (res?.status === 201) {
-      navigate("/login");
-    } else {
-      setEmailError(true);
-      setErrorMsg(
-        res.response.data.email[0] === "is field must be unique."
-          ? res.response.data.email[0]
-          : "Email Already registered"
-      );
-      setTimeout(() => {
-        setEmailError(false);
-      }, 3000);
     }
   };
 
