@@ -8,22 +8,8 @@
         "coordinates": [3.3752101873613665, 6.571474507624321]
       },
       "properties": {
-        "enforceable_time": "0910-1750 MON-SAT",
-        "no_parking": null,
-        "parking_restrict_type": "none",
-        "seg_cap": null,
-        "zone_type": "Parking Zone",
-        "no_stopping": null,
-        "price_zone": "11",
-        "parking_zone": "4368",
-        "stall_type": "Parallel",
-        "block_side": "W",
-        "status": "Active",
-        "parking_restrict_time": "none",
-        "permit_zone": "4368",
-        "zone_cap": null,
         "address_desc": "No 20, Atiba Osborne",
-        "max_time": "120.0",
+
         "brz_name": "Beltline",
         "tracking_id": "4368"
       }

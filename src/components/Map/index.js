@@ -28,21 +28,9 @@ function Map() {
           store.geometry.coordinates[0][0][1],
         ];
       }
-      if (
-        store.properties.price_zone === null ||
-        isNaN(store.properties.price_zone)
-      ) {
-        store.properties.price_zone = "10";
-      }
-      if (store.properties.brz_name === null) {
-        store.properties.brz_name = "Street";
-      }
+
       if (!store.properties.brz_name.includes("-")) {
-        store.properties.brz_name +=
-          "-" +
-          store.properties.parking_zone +
-          "-" +
-          store.properties.block_side;
+        store.properties.brz_name += "-" + store.properties.tracking_id;
       }
 
       // registerLots({
@@ -124,11 +112,7 @@ function Map() {
       new mapboxgl.Popup({ closeOnClick: false })
         .setLngLat(currentFeature.geometry.coordinates)
         .setHTML(
-          `<h3>${currentFeature.properties.address_desc}</h3><h4>${
-            currentFeature.properties.brz_name === null
-              ? `Street ${currentFeature.properties.id + 1}`
-              : currentFeature.properties.brz_name
-          }</h4>`
+          `<h3>${currentFeature.properties.address_desc}</h3><h4>${currentFeature.properties.brz_name}</h4>`
         )
         .addTo(map);
     }
@@ -150,10 +134,10 @@ function Map() {
       if (activeItem[0]) {
         activeItem[0].classList.remove("active");
       }
-      const listing = document.getElementById(
-        `listing-${clickedPoint.properties.id}`
+      const link = document.getElementById(
+        `link-${clickedPoint.properties.id}`
       );
-      listing.classList.add("active");
+      link.classList.add("active");
     });
 
     async function buildLocationList(stores) {
